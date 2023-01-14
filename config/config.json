@@ -11,5 +11,6 @@
     "username": "root",
     "password": null,
     "database": "database_test",
-    "host":
+    "host": 
   }
+}
