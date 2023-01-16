@@ -1,16 +1,22 @@
 {
   "dependencies": {
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
     "mysql2": "^3.0.1",
     "sequelize": "^6.28.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
   },
   "name": "ecommerce",
   "description": "* [UserStory](#userstory)   * [Acceptance Criteria](#acceptance-criteria)   * [Git Repo](#git-repo)   * [Walk through video] (#video)   * [credits] (#credits)",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Gladi023/ECommerce.git"
