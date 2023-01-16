@@ -2,5 +2,23 @@
   "dependencies": {
     "mysql2": "^3.0.1",
     "sequelize": "^6.28.0"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "ecommerce",
+  "description": "* [UserStory](#userstory)   * [Acceptance Criteria](#acceptance-criteria)   * [Git Repo](#git-repo)   * [Walk through video] (#video)   * [credits] (#credits)",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gladi023/ECommerce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gladi023/ECommerce/issues"
+  },
+  "homepage": "https://github.com/Gladi023/ECommerce#readme"
 }
