@@ -17,7 +17,6 @@ Category.init(
     }
   },
   {
-    sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
@@ -26,7 +25,7 @@ Category.init(
 );
 
 Category.bulkCreate = function(records) {
-  return sequelize.bulkCreate(records, {returning: true});
+  return Category.bulkCreate(records, {returning: true});
 };
 
 module.exports = Category;

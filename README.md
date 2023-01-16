@@ -32,13 +32,17 @@ THEN I am able to successfully create, update, and delete data in my database
 https://github.com/Gladi023/ECommerce
 ## Tools Used
 
+  * sequelize
+  * MYSQL2
+  * DOTENV
   * Node.js
+
   
 
 ## [Walk through video](#video)
 
 Here is the link to the walkthrough video:
-https://vimeo.com/
+https://vimeo.com/manage/videos/789823451
 
 ## [credits](#credits)
 Educational Modules from Trilogy Education Services and Columbia University were used to create this app.
